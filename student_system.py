@@ -189,7 +189,7 @@ class StudentSystem:
                 messagebox.showerror("错误", f"注册失败: {err}")
 
         elif role == "teacher":
-            account = self.teacher_fields['登陆帐号'].get()
+            account = self.teacher_fields['学号/登陆帐号'].get()
             name = self.teacher_fields['教师'].get()
             password = self.teacher_fields['登陆密码'].get()
             confirm = self.teacher_fields['确认密码'].get()
