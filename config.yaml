@@ -1,0 +1,5 @@
+database:
+  host: "localhost"
+  user: "root"
+  password: "your password"  # Your password here 
+  database: "your database"  # Your database name here
